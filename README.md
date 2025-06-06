@@ -1,1 +1,1 @@
-<h1 align="center">Atividade inventario interplanetario<img scr = "https://file.aiquickdraw.com/imgcompressed/img/compressed_49dd398ab3b62545569f6d1148c7f58a.webp"></h1>
+<h1 align="center">Atividade inventario interplanetario<img src = "https://file.aiquickdraw.com/imgcompressed/img/compressed_49dd398ab3b62545569f6d1148c7f58a.webp" width = 50px </h1>
