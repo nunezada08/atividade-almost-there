@@ -96,3 +96,12 @@ inventarioAlpha.unshift(itemDestacado)
 inventarioAlpha.splice(10, 1)
 
 console.table(inventarioAlpha)
+
+// mudando item de lugar - atividade 6
+
+let itemPromovido = inventarioAlpha[6]
+inventarioAlpha.unshift(itemPromovido)
+
+inventarioAlpha.splice(7, 1)
+
+console.table(inventarioAlpha)
