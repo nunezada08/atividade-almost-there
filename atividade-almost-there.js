@@ -118,15 +118,6 @@ inventarioBeta.shift()
 
 console.table(inventarioBeta)
 
-// verificando se tem um item na array Beta - atividade 9
-
-if (inventarioBeta.includes(["Relíquia de Zordon"])) {
-    console.log(`O item "Relíquia de Zordon" está presente no inventario Beta`)
-} else{
-    console.log(`O item "Relíquia de Zordon" não está presente no inventario Beta`)
-}
-
-
 // cria um texto com os 10 primeiros itens da array Beta - atividade 12
 
 let novaString = inventarioBeta.slice(0, 10)
@@ -181,3 +172,14 @@ let cincoBeta = inventarioBeta.slice(0, 5)
 
 let vitrineDestaque = cincoAlpha.concat(cincoBeta)
 console.table(vitrineDestaque)
+
+// invertendo a ordem dos 15 primeiros itens da array Alpha - 26
+
+let quinzePrimeiros = inventarioAlpha.slice(0, 15)
+let quinzePrimeirosReverse = quinzePrimeiros.reverse()
+
+let ultimos = inventarioAlpha.splice(16, inventarioAlpha.length)
+
+let novoFinal = quinzePrimeiros.concat(ultimos)
+
+console.table(novoFinal)
