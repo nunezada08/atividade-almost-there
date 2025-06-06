@@ -66,14 +66,24 @@ console.table(inventarioAlpha)
 inventarioBeta.pop()
 console.table(inventarioBeta)
 
-// adicionando 3 novos item na array alpha - atividade 3
+// adicionando 3 novos itens na array Alpha - atividade 3
 
-let novoitem1 = ["Playstation 80", "terra", 8000]
-let novoitem2 = ["Camisa do dono do roblox","Terra", 10000]
-let novoitem3 = ["Whey do Cariani", "Terra", 4000]
+let novoitem1Alpha = ["Playstation 80", "terra", 8000]
+let novoitem2Alpha = ["Camisa do dono do roblox","Terra", 10000]
+let novoitem3Alpha = ["Whey do Cariani", "Terra", 4000]
 
-inventarioAlpha.push(novoitem1)
-inventarioAlpha.push(novoitem2)
-inventarioAlpha.push(novoitem3)
+inventarioAlpha.push(novoitem1Alpha)
+inventarioAlpha.push(novoitem2Alpha)
+inventarioAlpha.push(novoitem3Alpha)
 
 console.table(inventarioAlpha)
+
+// adicionando 2 novos itens na array Beta - atividade 4
+
+let novoitem1Beta = ["Lego marvel","Terra",11000]
+let novoitem2Beta = ["Lego batman","Terra",11430]
+
+inventarioBeta.push(novoitem1Beta)
+inventarioBeta.push(novoitem2Beta)
+
+console.table(inventarioBeta)
