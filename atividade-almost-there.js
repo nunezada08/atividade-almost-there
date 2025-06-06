@@ -141,3 +141,8 @@ let novaarray = []
 novaarray = inventarioBeta.slice(0, 5)
 
 console.log(novaarray)
+
+// separando os 10 ultimos elementos da array alpha - atividade 14
+
+inventarioAlpha.reverse()
+console.table(inventarioAlpha.slice(0, 10))
