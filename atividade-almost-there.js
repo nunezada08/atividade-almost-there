@@ -55,4 +55,8 @@ let inventarioAlpha = [
     ["Capa de Invisibilidade", "Terra", 3900],
     ["Terminal de Dobra", "Alpha Centauri", 10500]
   ];
-  
+
+// remove ulitmo item da array alpha - atividade 1
+
+inventarioAlpha.pop()
+console.log(inventarioAlpha)
