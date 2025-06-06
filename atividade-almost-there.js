@@ -126,6 +126,14 @@ if (inventarioBeta.includes(["Relíquia de Zordon"])) {
     console.log(`O item "Relíquia de Zordon" não está presente no inventario Beta`)
 }
 
+
+// cria um texto com os 10 primeiros itens da array Beta - atividade 12
+
+let novaString = inventarioBeta.slice(0, 10)
+
+console.log(novaString.join(" ,"))
+
+
 // cria nova array dos 5 primeiros itens da Beta - atividade 13
 
 let novaarray = []
