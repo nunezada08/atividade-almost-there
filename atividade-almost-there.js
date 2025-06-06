@@ -173,3 +173,11 @@ console.log(`Os itens removidos foram ${itensremovidos}`)
 let listaCombinada = inventarioAlpha.concat(inventarioBeta)
 
 console.table(listaCombinada)
+
+// juntando os 5 primeiros itens de cada array - atividade 18
+
+let cincoAlpha = inventarioAlpha.slice(0, 5)
+let cincoBeta = inventarioBeta.slice(0, 5)
+
+let vitrineDestaque = cincoAlpha.concat(cincoBeta)
+console.table(vitrineDestaque)
