@@ -167,3 +167,9 @@ console.log(div)
 let itensremovidos = inventarioBeta.splice(11, 2)
 
 console.log(`Os itens removidos foram ${itensremovidos}`)
+
+// concatenando a array Alpha e Beta - atividade 17
+
+let listaCombinada = inventarioAlpha.concat(inventarioBeta)
+
+console.table(listaCombinada)
