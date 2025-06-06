@@ -65,3 +65,15 @@ console.table(inventarioAlpha)
 
 inventarioBeta.pop()
 console.table(inventarioBeta)
+
+// adicionando 3 novos item na array alpha - atividade 3
+
+let novoitem1 = ["Playstation 80", "terra", 8000]
+let novoitem2 = ["Camisa do dono do roblox","Terra", 10000]
+let novoitem3 = ["Whey do Cariani", "Terra", 4000]
+
+inventarioAlpha.push(novoitem1)
+inventarioAlpha.push(novoitem2)
+inventarioAlpha.push(novoitem3)
+
+console.table(inventarioAlpha)
