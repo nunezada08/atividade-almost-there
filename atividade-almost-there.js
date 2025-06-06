@@ -144,5 +144,17 @@ console.log(novaarray)
 
 // separando os 10 ultimos elementos da array alpha - atividade 14
 
+let inventarioalphaInvertido = inventarioAlpha.reverse()
+console.table(inventarioalphaInvertido.slice(0, 10))
+
+// desenvertendo a lista para voltar a original
+
 inventarioAlpha.reverse()
-console.table(inventarioAlpha.slice(0, 10))
+
+// substituindo o quinto item da array Alpha - atividade 15
+
+let itemAtualizado = ["Braço do Vecna", "Planeta invertido", 9350]
+
+inventarioAlpha.splice(5, 1)
+inventarioAlpha.splice(5, 0,(itemAtualizado))
+console.table(inventarioAlpha)
