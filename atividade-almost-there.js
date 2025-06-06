@@ -97,11 +97,17 @@ inventarioAlpha.splice(10, 1)
 
 console.table(inventarioAlpha)
 
-// mudando item de lugar - atividade 6
+// mudando item de lugar da array Beta - atividade 6
 
-let itemPromovido = inventarioAlpha[6]
-inventarioAlpha.unshift(itemPromovido)
+let itemPromovido = inventarioBeta[6]
+inventarioBeta.unshift(itemPromovido)
 
-inventarioAlpha.splice(7, 1)
+inventarioBeta.splice(7, 1)
+
+console.table(inventarioBeta)
+
+// removendo primeiro item da array alpha - atividade 7
+
+let oloco = inventarioAlpha.shift()
 
 console.table(inventarioAlpha)
