@@ -117,3 +117,11 @@ console.table(inventarioAlpha)
 inventarioBeta.shift()
 
 console.table(inventarioBeta)
+
+// verificando se tem um item na array Beta - atividade 9
+
+if (inventarioBeta.includes(["Relíquia de Zordon"])) {
+    console.log(`O item "Relíquia de Zordon" está presente no inventario Beta`)
+} else{
+    console.log(`O item "Relíquia de Zordon" não está presente no inventario Beta`)
+}
