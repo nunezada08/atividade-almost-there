@@ -56,7 +56,12 @@ let inventarioAlpha = [
     ["Terminal de Dobra", "Alpha Centauri", 10500]
   ];
 
-// remove ulitmo item da array alpha - atividade 1
+// remove ulitmo item da array Alpha - atividade 1
 
 inventarioAlpha.pop()
-console.log(inventarioAlpha)
+console.table(inventarioAlpha)
+
+// remove ultimo item da array Beta - atividade 2
+
+inventarioBeta.pop()
+console.table(inventarioBeta)
