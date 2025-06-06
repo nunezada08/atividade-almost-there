@@ -87,3 +87,12 @@ inventarioBeta.push(novoitem1Beta)
 inventarioBeta.push(novoitem2Beta)
 
 console.table(inventarioBeta)
+
+// substituindo itens da array alpha - atividade 5
+
+let itemDestacado = inventarioAlpha[9]
+inventarioAlpha.unshift(itemDestacado)
+
+inventarioAlpha.splice(10, 1)
+
+console.table(inventarioAlpha)
