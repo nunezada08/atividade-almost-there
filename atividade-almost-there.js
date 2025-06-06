@@ -108,6 +108,12 @@ console.table(inventarioBeta)
 
 // removendo primeiro item da array alpha - atividade 7
 
-let oloco = inventarioAlpha.shift()
+inventarioAlpha.shift()
 
 console.table(inventarioAlpha)
+
+// removendo primeiro item da array Beta - atividade 8
+
+inventarioBeta.shift()
+
+console.table(inventarioBeta)
