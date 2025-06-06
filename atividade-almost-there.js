@@ -158,3 +158,12 @@ let itemAtualizado = ["Braço do Vecna", "Planeta invertido", 9350]
 inventarioAlpha.splice(5, 1)
 inventarioAlpha.splice(5, 0,(itemAtualizado))
 console.table(inventarioAlpha)
+
+// removendo dois itens no meio da array Beta - atividade 16
+
+let div = inventarioBeta.length / 2
+console.log(div)
+
+let itensremovidos = inventarioBeta.splice(11, 2)
+
+console.log(`Os itens removidos foram ${itensremovidos}`)
